@@ -1,0 +1,31 @@
+{
+  "name": "Void Islands Palette",
+  "description": "Source-of-truth colors for UI and syntax mapping.",
+  "ui": {
+    "background": "#0B0F14",
+    "foreground": "#C7D0D9",
+    "surface": "#121923",
+    "surfaceElevated": "#1A2330",
+    "selection": "#26405E",
+    "border": "#2B3A4A",
+    "accentPrimary": "#5CC8FF",
+    "accentSecondary": "#A78BFA",
+    "warning": "#F5C451",
+    "error": "#F07178",
+    "success": "#7FD48C"
+  },
+  "syntax": {
+    "keyword": "#A78BFA",
+    "string": "#95E6CB",
+    "comment": "#637289",
+    "function": "#5CC8FF",
+    "type": "#FFB86C",
+    "constant": "#F5C451",
+    "variable": "#C7D0D9"
+  },
+  "states": {
+    "hover": "#1D2A3A",
+    "active": "#25384D",
+    "selectionStrong": "#345171"
+  }
+}
