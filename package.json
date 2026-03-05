@@ -1,0 +1,28 @@
+{
+  "name": "void-islands-theme",
+  "displayName": "Void Islands Theme",
+  "description": "A deep, high-contrast dark theme inspired by pitch-black islands and neon horizons.",
+  "version": "0.0.1",
+  "publisher": "voidislands",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme",
+    "void islands"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pitchblack Island",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pitchblack-island-color-theme.json"
+      }
+    ]
+  }
+}

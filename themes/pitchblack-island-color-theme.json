@@ -1,0 +1,117 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Pitchblack Island",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#07090f",
+    "editor.foreground": "#d9e0ee",
+    "editorLineNumber.foreground": "#5b6375",
+    "editorLineNumber.activeForeground": "#9fb2ff",
+    "editorCursor.foreground": "#8af7ff",
+    "editor.selectionBackground": "#29406766",
+    "editor.inactiveSelectionBackground": "#22314f55",
+    "editor.selectionHighlightBackground": "#3a5a8d44",
+    "editor.wordHighlightBackground": "#2e4a7540",
+    "editor.wordHighlightStrongBackground": "#4c6ba940",
+    "editor.findMatchBackground": "#ffd16680",
+    "editor.findMatchHighlightBackground": "#ffd16644",
+    "editorIndentGuide.background1": "#1a2030",
+    "editorIndentGuide.activeBackground1": "#3f4d73",
+    "sideBar.background": "#0a0d16",
+    "activityBar.background": "#090c13",
+    "statusBar.background": "#121a2b",
+    "statusBar.foreground": "#d5def2",
+    "titleBar.activeBackground": "#101829",
+    "titleBar.activeForeground": "#d5def2",
+    "panel.background": "#0a101d"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#697089",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#9ee493"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#8ea5ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Functions and Methods",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#8af7ff"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "identifier",
+        "entity.name.variable"
+      ],
+      "settings": {
+        "foreground": "#d9e0ee"
+      }
+    },
+    {
+      "name": "Types and Classes",
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#ffd166"
+      }
+    },
+    {
+      "name": "Numbers and Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#f5a97f"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#ffffff",
+        "background": "#ff5d73"
+      }
+    }
+  ]
+}
